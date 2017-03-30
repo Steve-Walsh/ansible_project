@@ -1,0 +1,12 @@
+---
+  ec2_keypair: "aws-key"
+  ec2_security_group: "sg-f1944788"
+  ec2_instance_type: "t2.micro"
+  ec2_image: "ami-a192bad2"
+  ec2_subnet_ids: ['subnet-bc432bca']
+  ec2_region: "eu-west-1"
+  ec2_tag_Name: "haproxy"
+  ec2_tag_Type: "haproxy"
+  ec2_tag_Environment: "production"
+  ec2_volume_size: 8
+  ec2_instance_count: 1
