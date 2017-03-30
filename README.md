@@ -19,7 +19,6 @@ Project requires
 To run the play book
 ```sh
 $ cd ansible_project
-$ ansible-playbook -vvv 
-$ node app.js
+$ ansible-playbook -vvv provision-ec2.yml
 ```
 
