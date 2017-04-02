@@ -16,3 +16,5 @@
       dest='/etc/default/haproxy'
       regexp='ENABLED=0'
       replace='ENABLED=1'
+    notify: restart haproxy
+
