@@ -8,12 +8,13 @@ This play book does the following:
   - The playbook updates the haproxy.cfg file to add in the nginx servers as backend nodes
   - The playbook enables haproxy to run.
   
-
+## For ansbile vault version please see [here](https://github.com/Steve-Walsh/ansible_project_vault)
 
 ### Installation
 
 Project requires 
   - [Ansible](https://www.ansible.com/) 
+  - [Boto](https://github.com/boto/boto)
 
  
 To run the play book
